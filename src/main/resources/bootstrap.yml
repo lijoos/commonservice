@@ -10,4 +10,4 @@ eureka:
     prefer-ip-address: true
   client:
     service-url:
-      defaultZone: https://eurekaserver-lj.herokuapp.com/
+      defaultZone: http://localhost:8761/eureka
