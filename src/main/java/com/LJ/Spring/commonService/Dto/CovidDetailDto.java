@@ -2,10 +2,10 @@ package com.LJ.Spring.commonService.Dto;
 
 import java.util.ArrayList;
 
-public class CovidDetail {
-	private String id;
+public class CovidDetailDto {
+	 private String id;
 	 private String displayName;
-	 ArrayList < CovidDetail > areas = new ArrayList < CovidDetail > ();
+	 ArrayList < CovidDetailDto > areas = new ArrayList < CovidDetailDto > ();
 
 	 private float totalConfirmed;
 	 private float totalDeaths;
@@ -82,11 +82,11 @@ public class CovidDetail {
 	 public void setParentId(String parentId) {
 	  this.parentId = parentId;
 	 }
-	 public ArrayList<CovidDetail> getAreas() {
+	 public ArrayList<CovidDetailDto> getAreas() {
 			return areas;
 		}
 
-		public void setAreas(ArrayList<CovidDetail> areas) {
+		public void setAreas(ArrayList<CovidDetailDto> areas) {
 			this.areas = areas;
 		}
 
